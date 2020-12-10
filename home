@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="shiba ryotaro, japanese, history, literature">
+    <meta name="description" content="This site concerns the life and works of Japanese writer and historian Shiba Ryotaro.">
+    <meta name="" content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  </head>
+  <style>
+  
+    .footer {
+      background-color: grey;
+      color: white;
+      padding: 20 px;
+      bottom: 0;
+      position: fixed;
+      height: 70px;
+      left: 0;
+      width: 100%;
+    }
+
+  </style>
+
+  <body>
+
+    <h1 style="text-align: center">Shiba Ryotaro</h1>
+
+    <a href="www.google.com" style="text-decoration: none; padding: 20px;">
+      <p1>Life</p1>
+    </a>
+
+    <a href="www.google.com" style="text-decoration: none; padding: 20px;">
+      <p1>Works</p1>
+    </a>
+
+    <a href="www.google.com" style="text-decoration: none; padding: 20px;">
+      <p1>Museum</p1>
+    </a>
+
+    <img src="https://cdn.osaka-info.jp/page_translation/content/39d4520e-04c1-11e8-87df-06326e701dd4.jpeg" width="100%">
+
+    <div class="footer">
+  
+    <h1 style="text-align: center; font-size: small;"> &copy SoulImage</h1>
+       
+      </div>
+
+</body>
+</html>
