@@ -1,51 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
+!DOCTYPE html>
 
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="keywords" content="shiba ryotaro, japanese, history, literature">
-    <meta name="description" content="This site concerns the life and works of Japanese writer and historian Shiba Ryotaro.">
-    <meta name="" content="">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  </head>
-  <style>
-  
-    .footer {
-      background-color: grey;
-      color: white;
-      padding: 20 px;
-      bottom: 0;
-      position: fixed;
-      height: 70px;
-      left: 0;
-      width: 100%;
-    }
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    >
+<link rel="stylesheet" href="lib/style.css">
 
-  </style>
+    <script src="lib/script.js"></script>
+  </head>
 
   <body>
-
-    <h1 style="text-align: center">Shiba Ryotaro</h1>
-
-    <a href="www.google.com" style="text-decoration: none; padding: 20px;">
-      <p1>Life</p1>
-    </a>
-
-    <a href="www.google.com" style="text-decoration: none; padding: 20px;">
-      <p1>Works</p1>
-    </a>
-
-    <a href="www.google.com" style="text-decoration: none; padding: 20px;">
-      <p1>Museum</p1>
-    </a>
-
-    <img src="https://cdn.osaka-info.jp/page_translation/content/39d4520e-04c1-11e8-87df-06326e701dd4.jpeg" width="100%">
-
-    <div class="footer">
-  
-    <h1 style="text-align: center; font-size: small;"> &copy SoulImage</h1>
-       
+    <!--Header-->
+    <div
+      class="container"
+      style="background-color: black; width: 100%; padding: 20px"
+    >
+      <div class="row">
+        <!--Title-->
+        <div class="col-sm-8">
+          <h style="font-size: 30px; color: #c0c0c0">SHIBA RYOTARO</h>
+        </div>
+        <!--Menu-->
+        <div class="col-lg-3" style="padding: 20px; word-spacing: 20px">
+          <a href="#" style="text-decoration: none">Life</a>
+          <a href="#" style="text-decoration: none">Works</a>
+          <a href="#" style="text-decoration: none">Museum</a>
+          <!--Col div-->
+        </div>
+        <!--Row div-->
       </div>
+      <!--Container div-->
+    </div>
+    <!--Middle Text-->
 
-</body>
+    <p class="middleText">
+      <br/>Welcome to this website on Shiba Ryotaro, which presents the life and
+      works of this famous Japanese figure. Shiba Ryotaro is one of the most
+      well-know writers and historians in Japan. During his life, he wrote a
+      number of works that can be regarded as historical fiction. One of his
+      most famous series of books is <i>Clouds Above the Hill</i>, which is
+      among his works that have been translated into English.
+    <br/></p>
+
+    <!--Footer-->
+    <div class="footer" style="text-align: center; padding: 10px">
+      <a href="#" style="text-decoration: none">About |</a>
+      <a href="#" style="text-decoration: none">Policy |</a>
+      <a href="#" style="text-decoration: none">Contact</a>
+
+      <p
+        style="color: white; padding: 10px; text-align: center; word-spacing; 10px; padding: 10px;"
+      >
+        &copy SoulImage
+      </p>
+    </div>
+  </body>
 </html>
+
+
+
