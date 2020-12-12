@@ -1,24 +1,4 @@
-body {
-  background-image: url("https://cdn.osaka-info.jp/page_translation/content/39d4520e-04c1-11e8-87df-06326e701dd4.jpeg");
-  background-repeat: no-repeat;
-  background-size: 1500px;
-  
-}
-
 .middleText {
   background-color: gainsboro;
-  height: 200px;
-  width: 100%;
-  bottom: 0;
-  position: fixed;
-  padding: 5px;
-  
-}
-
-.footer {
-  background-color: red;
-  height: 70px;
-  width: 100%;
-  bottom: 0;
-  position: fixed;
+  padding: 10px;
 }
