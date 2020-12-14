@@ -27,20 +27,30 @@
     <!--Divide for Text and contact Pic-->
     <div class = "row">
      <!--Text-->
-    <div class = "col-lg-8" style = "background-color: gainsboro;">
+    <div class = "col-lg-5" style = "background-color: gainsboro;">
     <!--Middle Text-->
-    <p><br/> Please use the following form. <br/></p>
+    <p style = "padding: 20px;"><br/> Please use the following form. <br/></p>
     <!--Contact Form-->
-      <form action="https://formspree.io/f/xleopanz" method="POST">
-        <input type="text" name="name">
-        <input type="email" name="_replyto">
-        <input type="submit" value="Send">
+        <div style = "padding: 100px;">
+      <form
+  action="https://formspree.io/f/xleopanz"
+  method="POST">
+        <label>
+        Your email:<br/><br/>
+        <input type="text" name="_replyto"><br/><br/>
+        </label>
+        <label>
+        Your message:<br/><br/>
+        <textarea name="message" style = "height: 200px; width: 400px;"></textarea>
+        </label><br/><br/>
+        <button type="submit">Send</button>
       </form>
+      </div>
     </div>
      <!--Pic-->
-     <div class = "col-lg-4">
+     <div class = "col-lg-7">
     <!--Bio Pic-->
-    <img src = "https://japantoday-asset.scdn3.secure.raxcdn.com/img/store/4d/13/50766db7d93e3c9c613204f21d7677c942c7/smart.jpg" >
+    <img src = "https://japantoday-asset.scdn3.secure.raxcdn.com/img/store/4d/13/50766db7d93e3c9c613204f21d7677c942c7/smart.jpg" width = "100%">
 </div>
     </div>
     <!--Div for Contact Pic Divide-->
